@@ -95,13 +95,17 @@ class AboutSection extends Component {
               </Fade>
               <div>
               <a href={Resume} target = "_blank" rel="noopener noreferrer" >
+              <Fade bottom duration={2000}>
               <div className="image-cv">
               <CV theme={theme} />
               </div> 
+              </Fade>
               </a> 
+              <Fade bottom duration={2000}>
               <div className="download-button">
               <Button text="Download CV" theme={theme} href={Resume} target = "_blank" rel="noopener noreferrer"  />
               </div>
+              </Fade>
               </div>
             </div>
       </div>
