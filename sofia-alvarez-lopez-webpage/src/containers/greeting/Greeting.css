@@ -5,7 +5,7 @@
   margin-top: 4rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .titulo {
     background-image: url("../../assets/images/mancha.svg");
     background-repeat: no-repeat;

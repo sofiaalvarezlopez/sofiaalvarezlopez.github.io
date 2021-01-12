@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import SkillSection from "./AboutSection";
+import AboutSection from "./AboutSection";
 import { Fade } from "react-reveal";
 
 export default function About(props) {
@@ -14,7 +14,7 @@ export default function About(props) {
           </h1>
         </Fade>
       </div>
-      <SkillSection theme={theme} />
+      <AboutSection theme={theme} />
     </div>
   );
 }
