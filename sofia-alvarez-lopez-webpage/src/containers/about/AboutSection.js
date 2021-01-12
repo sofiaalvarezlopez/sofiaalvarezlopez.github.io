@@ -6,7 +6,7 @@ import Personal from "./PersonalImg"
 import CV from "./CVImg"
 import { NavLink, Link } from "react-router-dom";
 import Resume from "../../assets/other/Resume.pdf"
-//import Button from "../../components/button/Button"
+import Button from "../../components/button/Button"
 
 class AboutSection extends Component {
   render() {
@@ -97,11 +97,11 @@ class AboutSection extends Component {
               <a href={Resume} target = "_blank" rel="noopener noreferrer" >
               <div className="image-cv">
               <CV theme={theme} />
-              {/*<div className="download-button">
-              <Button text="Download CV" theme={theme}  />
-              </div>*/}
               </div> 
               </a> 
+              <div className="download-button">
+              <Button text="Download CV" theme={theme} href={Resume} target = "_blank" rel="noopener noreferrer"  />
+              </div>
               </div>
             </div>
       </div>

@@ -109,6 +109,15 @@
   .image-cv > * {
     margin-top: 0px;
   }
+
+}
+@media (max-width: 767px) {
+.download-button > * {
+  margin-left: 35%;
+margin-right: 35%;
+width: 30%;
+align-items: center;
+}
 }
 
 @media only screen and (min-width: 768px) {
