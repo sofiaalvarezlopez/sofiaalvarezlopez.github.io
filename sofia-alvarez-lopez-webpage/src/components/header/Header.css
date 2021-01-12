@@ -46,6 +46,10 @@
 
 /* menu */
 
+.about-cursor {
+  cursor: pointer;
+}
+
 .menu {
   font-family: "Google Sans Regular";
 }

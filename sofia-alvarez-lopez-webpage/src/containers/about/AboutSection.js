@@ -5,9 +5,6 @@ import PhysicsAndCS from "./PhysicsAndCSImg";
 import Personal from "./PersonalImg"
 import { NavLink, Link } from "react-router-dom";
 
-
-
-
 class AboutSection extends Component {
   render() {
     const theme = this.props.theme;
@@ -83,6 +80,8 @@ class AboutSection extends Component {
               <Personal theme={theme} />
               </div>         
               </Fade>   
+            </div>
+            <div>
             </div>
       </div>
     );

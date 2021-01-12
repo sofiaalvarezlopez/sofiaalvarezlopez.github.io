@@ -2,6 +2,7 @@ import React, { Component} from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
+import {Link as LinkScroll} from 'react-scroll'
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -12,7 +13,12 @@ const onMouseOut = (event) => {
   const el = event.target;
   el.style.backgroundColor = "transparent";
 };
-
+/*
+function GoDownEvent() {
+  document.body.scrollTo;
+  document.documentElement.scrollTop = 0;
+}
+*/
 class Header extends Component {
   render() {
     const theme = this.props.theme;
@@ -44,16 +50,17 @@ class Header extends Component {
                 </NavLink>
               </li>
               <li>
-                <NavLink
-                  to="/about"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  About
-                </NavLink>
+              <LinkScroll  
+              to="about" 
+              className="about-cursor"
+              spy={true} 
+              tag={Link}
+              style={{ color: theme.text}}
+              onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+              onMouseOut={(event) => onMouseOut(event)}
+              >
+                About
+                </LinkScroll>
               </li>
               <li>
                 <NavLink
