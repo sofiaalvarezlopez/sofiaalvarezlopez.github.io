@@ -3,7 +3,10 @@ import "./About.css";
 import { Fade } from "react-reveal";
 import PhysicsAndCS from "./PhysicsAndCSImg";
 import Personal from "./PersonalImg"
+import CV from "./CVImg"
 import { NavLink, Link } from "react-router-dom";
+import Resume from "../../assets/other/Resume.pdf"
+//import Button from "../../components/button/Button"
 
 class AboutSection extends Component {
   render() {
@@ -82,6 +85,24 @@ class AboutSection extends Component {
               </Fade>   
             </div>
             <div>
+            </div>
+            <div>
+            <Fade right duration={1000}>
+                  <p className="subTitle skills-text skills-font-size" style={{ color: theme.text, textAlign: "center" }}>
+                  In this webpage, I want to show you what I love, what I’m working on and what I’m interested in. <br/>
+                  Here’s my CV! Feel free to download it.
+                  </p>
+              </Fade>
+              <div>
+              <a href={Resume} target = "_blank">
+              <div className="image-cv">
+              <CV theme={theme} />
+              {/*<div className="download-button">
+              <Button text="Download CV" theme={theme}  />
+              </div>*/}
+              </div> 
+              </a> 
+              </div>
             </div>
       </div>
     );
