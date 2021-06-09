@@ -1,9 +1,9 @@
 import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
+import Languages from "../../components/languages/Languages";
 import { Fade } from "react-reveal";
 import LandingPageImage from "./LandingPageImage";
-
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -28,7 +28,7 @@ export default function Greeting(props) {
               </div>
             </div>
             <div className="greeting-image-div">
-              <LandingPageImage theme={theme} />
+            <LandingPageImage theme={theme} />
             </div>
           </div>
         </div>

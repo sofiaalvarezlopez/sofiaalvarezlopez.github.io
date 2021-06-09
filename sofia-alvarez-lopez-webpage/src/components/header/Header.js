@@ -32,23 +32,12 @@ class Header extends Component {
                 Sofía
               </span>
             </NavLink>
+            
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
               <span className="navicon"></span>
             </label>
             <ul className="menu" style={{ backgroundColor: theme.body }}>
-              <li>
-                <NavLink
-                  to="/home"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Home
-                </NavLink>
-              </li>
               <li>
               <LinkScroll  
               to="about" 
@@ -121,6 +110,9 @@ class Header extends Component {
                 >
                   Contact me
                 </NavLink>
+              </li>
+              <li>
+
               </li>
             </ul>
           </header>
