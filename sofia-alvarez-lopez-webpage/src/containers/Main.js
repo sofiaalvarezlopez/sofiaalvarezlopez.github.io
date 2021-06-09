@@ -2,15 +2,17 @@ import React, { Component } from "react";
 import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 
-const selectedLanguage = "english";
+//const selectedLanguage = "english";
 
 
 export default class Main extends Component {
+  /** 
   constructor(props){
     super(props);
     this.state = { language: selectedLanguage };
     this.changeColor = this.changeColor.bind(this);
   }
+  
   changeColor(){
     const newLanguage = "";
     if (this.state.language === "spanish") {
@@ -27,6 +29,7 @@ export default class Main extends Component {
     }
     this.setState({ language: newLanguage })
   }
+  */
   render() {
     const theme = this.props.theme;
     console.log(theme);

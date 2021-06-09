@@ -1,7 +1,7 @@
 import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Languages from "../../components/languages/Languages";
+//import Languages from "../../components/languages/Languages";
 import { Fade } from "react-reveal";
 import LandingPageImage from "./LandingPageImage";
 

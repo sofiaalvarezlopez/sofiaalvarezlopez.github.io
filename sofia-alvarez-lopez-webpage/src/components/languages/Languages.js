@@ -40,7 +40,7 @@ export default function languages(props) {
     {availableLanguages.map((language) => {
     return (
     <a
-      href=""
+      href="./"
       className="icon-button"
       key={language.name}
     >
