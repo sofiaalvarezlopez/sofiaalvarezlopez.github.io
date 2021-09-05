@@ -38,7 +38,7 @@ class AboutSection extends Component {
                           className="subTitle skills-text skills-font-size"
                           style={{ color: theme.secondaryText }}
                         >
-                          But everyone calls me Sofi. <br/>I'm a 20-year-old colombian 🇨🇴 who majors in <b>Physics</b> 🔭 and <b>Computer Science</b> 👩‍💻. I’m a fast learner and love diving into new technologies, physics and topics 👩‍🎓.
+                          But everyone calls me Sofi. <br/>I'm a 21-year-old colombian 🇨🇴 who majors in <b>Physics</b> 🔭 and <b>Computer Science</b> 👩‍💻. I’m a fast learner and love diving into new technologies, physics and topics 👩‍🎓.
                         </p>
                         <p
                           className="subTitle skills-text skills-font-size"
