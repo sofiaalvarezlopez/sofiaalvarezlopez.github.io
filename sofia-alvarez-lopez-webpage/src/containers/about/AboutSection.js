@@ -48,12 +48,11 @@ class AboutSection extends Component {
                   style={{ color: theme.secondaryText }}
                 >
                   My current interests involve gravitational-wave astrophysics,
-                  specially next-generation GW observatories, and I'm a student
-                  member of the LIGO collaboration. My main work within LIGO is
-                  for the detector characterization team. I also like and have
-                  worked on High Energy Physics, Quantum Computing, Image
-                  Processing, Computer Vision, Machine Learning and
-                  Human-Computer Interaction.
+                  and I'm a student member of the LIGO collaboration. My main
+                  work within LIGO is for the detector characterization team. I
+                  also like and have worked on High Energy Physics, Quantum
+                  Computing, Image Processing, Computer Vision, Machine Learning
+                  and Human-Computer Interaction.
                 </p>
               </div>
             </Fade>
