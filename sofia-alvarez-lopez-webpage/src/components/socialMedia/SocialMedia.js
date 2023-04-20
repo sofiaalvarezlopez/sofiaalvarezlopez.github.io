@@ -31,6 +31,12 @@ const socialMediaLinks = [
     backgroundColor: "#00CCBB",
   },
   {
+    name: "ORCID",
+    link: "https://orcid.org/0009-0003-8040-4936",
+    fontAwesomeIcon: "fa-orcid",
+    backgroundColor: "#0077B5",
+  },
+  {
     name: "Facebook",
     link: "https://www.facebook.com/sofiaalvarezl/",
     fontAwesomeIcon: "fa-facebook-f",

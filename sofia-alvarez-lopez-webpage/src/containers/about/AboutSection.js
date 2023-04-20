@@ -38,10 +38,10 @@ class AboutSection extends Component {
                   style={{ color: theme.secondaryText }}
                 >
                   But everyone calls me Sofi. <br />
-                  I'm a 22-year-old colombian 🇨🇴 who majors in <b>Physics</b> 🔭
-                  and <b>Computer Science</b> 👩‍💻 at Universidad de los Andes.
-                  I’m a fast learner and love diving into new technologies,
-                  physics and topics 👩‍🎓.
+                  I'm a 22-year-old undergraduate <b>Physics</b> 🔭 and{" "}
+                  <b>Computer Science</b> 👩‍💻 student at Universidad de Los
+                  Andes. I'm a fast learner and love diving into new
+                  technologies, physics, and topics 👩‍🎓.
                 </p>
                 <p
                   className="subTitle skills-text skills-font-size"
@@ -49,10 +49,12 @@ class AboutSection extends Component {
                 >
                   My current interests involve gravitational-wave astrophysics,
                   and I'm a student member of the LIGO collaboration. My main
-                  work within LIGO is for the detector characterization team. I
-                  also like and have worked on High Energy Physics, Quantum
-                  Computing, Image Processing, Computer Vision, Machine Learning
-                  and Human-Computer Interaction.
+                  work within LIGO is for the detector characterization team.
+                  I'm also interested in using Bayesian statistics and parameter
+                  estimation to understand gravitational-waves and our Universe.
+                  I also like and have worked in High Energy Physics, Quantum
+                  Computing, Image Processing, Computer Vision, Machine
+                  Learning, and Human-Computer Interaction.
                 </p>
               </div>
             </Fade>
@@ -96,8 +98,8 @@ class AboutSection extends Component {
                       {" "}
                       Projects+Research
                     </NavLink>{" "}
-                    sections), on my free time I love playing the piano 🎹,
-                    playing tenis 🎾, hiking 🥾, volunteering 🙏 and spending
+                    sections), in my free time I love playing the piano 🎹,
+                    playing tennis 🎾, hiking 🥾, volunteering 🙏 and spending
                     time with my family 👨‍👩‍👧 and friends (view{" "}
                     <NavLink
                       to="/more"
@@ -127,7 +129,7 @@ class AboutSection extends Component {
               style={{ color: theme.text, textAlign: "center" }}
             >
               In this webpage, I want to show you what I love, what I’m working
-              on and what I’m interested in. <br />
+              on, and what I’m interested in. <br />
               Here’s my CV! Feel free to download it.
             </p>
           </Fade>
