@@ -13,6 +13,12 @@ const IconWrapper = styled.span`
 `;
 const socialMediaLinks = [
   {
+    name: "Gmail",
+    link: "mailto:ms.alvarezl@uniandes.edu.co",
+    fontAwesomeIcon: "far fa-envelope",
+    backgroundColor: "#D14836",
+  },
+  {
     name: "Github",
     link: "https://github.com/sofiaalvarezlopez",
     fontAwesomeIcon: "fa-github",
@@ -34,7 +40,13 @@ const socialMediaLinks = [
     name: "ORCID",
     link: "https://orcid.org/0009-0003-8040-4936",
     fontAwesomeIcon: "fa-orcid",
-    backgroundColor: "#0077B5",
+    backgroundColor: "#A6CE39",
+  },
+  {
+    name: "Twitter",
+    link: "https://twitter.com/sofiaalvarezl28",
+    fontAwesomeIcon: "fa-twitter",
+    backgroundColor: "#1da1f2",
   },
   {
     name: "Facebook",
@@ -47,12 +59,6 @@ const socialMediaLinks = [
     link: "https://www.instagram.com/sofiaalvarezlopez/",
     fontAwesomeIcon: "fab fa-instagram",
     backgroundColor: "#E4405F",
-  },
-  {
-    name: "Gmail",
-    link: "mailto:maria.sofia.alvarez.lopez@gmail.com",
-    fontAwesomeIcon: "far fa-envelope",
-    backgroundColor: "#D14836",
   },
 ];
 
