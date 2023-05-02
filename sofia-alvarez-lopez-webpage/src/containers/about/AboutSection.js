@@ -41,9 +41,7 @@ class AboutSection extends Component {
                   I'm a 22-year-old undergraduate <b>Physics</b> 🔭 and{" "}
                   <b>Computer Science</b> 👩‍💻 student at Universidad de Los
                   Andes. I'm a fast learner and love diving into new
-                  technologies, physics, and topics 👩‍🎓. I'm beginning my Ph.D.
-                  in Physics at the Massachusetts Institute of Technology (MIT)
-                  in the fall of 2023.{" "}
+                  technologies, physics, and topics 👩‍🎓.
                 </p>
                 <p
                   className="subTitle skills-text skills-font-size"
