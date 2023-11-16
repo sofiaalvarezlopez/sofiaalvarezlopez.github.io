@@ -38,23 +38,26 @@ class AboutSection extends Component {
                   style={{ color: theme.secondaryText }}
                 >
                   But everyone calls me Sofi. <br />
-                  I'm a 22-year-old undergraduate <b>Physics</b> 🔭 and{" "}
-                  <b>Computer Science</b> 👩‍💻 student at Universidad de Los
-                  Andes. I'm a fast learner and love diving into new
-                  technologies, physics, and topics 👩‍🎓.
+                  I'm a first-year <b>Physics</b> graduate student at MIT in the
+                  Astrophysics division 🔭. I graduated from Universidad de Los
+                  Andes (Bog, 🇨🇴) in 2023 with degrees in <b>Physics</b> and{" "}
+                  <b>Systems and Computing Engineering</b> 👩‍💻.
                 </p>
                 <p
                   className="subTitle skills-text skills-font-size"
                   style={{ color: theme.secondaryText }}
                 >
-                  My current interests involve gravitational-wave astrophysics,
-                  and I'm a student member of the LIGO collaboration. My main
-                  work within LIGO is for the detector characterization team.
-                  I'm also interested in using Bayesian statistics and parameter
-                  estimation to understand gravitational-waves and our Universe.
-                  I also like and have worked in High Energy Physics, Quantum
-                  Computing, Image Processing, Computer Vision, Machine
-                  Learning, and Human-Computer Interaction.
+                  As a member of the MIT Kavli Institute for Astrophysics and
+                  Space Research and the LIGO Scientific Collaboration, my main
+                  research interest is gravitational-wave (GW) (astro)physics.
+                  I'm interested in using Bayesian statistics and data science
+                  techniques to understand the populations of black holes and
+                  neutron stars in our Universe from their gravitational-wave
+                  imprint. Additionally, I work on detector characterization and
+                  data calibration efforts to assist in GW searches and
+                  discoveries. I also find fascinating new challenges and
+                  detections coming up in next-generation gravitational-wave
+                  observatories, such as LISA and the Cosmic Explorer.
                 </p>
               </div>
             </Fade>

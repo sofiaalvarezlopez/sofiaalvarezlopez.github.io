@@ -7,31 +7,32 @@ import LandingPageImage from "./LandingPageImage";
 
 export default function Greeting(props) {
   const theme = props.theme;
-    return (
-      <Fade bottom duration={2000} distance="40px">
-        <div className="greet-main" id="greeting">
-          <div className="greeting-main">
-            <div className="greeting-text-div">
-              <div>
+  return (
+    <Fade bottom duration={2000} distance="40px">
+      <div className="greet-main" id="greeting">
+        <div className="greeting-main">
+          <div className="greeting-text-div">
+            <div>
               <div className="titulo">
-                <h1 className="greeting-text" style={{ color: theme.text}}>
+                <h1 className="greeting-text" style={{ color: theme.text }}>
                   &nbsp; Hi, I'm Sofía Álvarez
                 </h1>
                 <p
                   className="greeting-text-p subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  A hard-working and passionate <br/> Physics and Computer Science <br/> student from Colombia 🇨🇴
+                  A hard-working and passionate <br /> Physics graduate student{" "}
+                  <br /> at MIT from Colombia 🇨🇴
                 </p>
                 <SocialMedia theme={theme} />
-                </div>
               </div>
             </div>
-            <div className="greeting-image-div">
+          </div>
+          <div className="greeting-image-div">
             <LandingPageImage theme={theme} />
-            </div>
           </div>
         </div>
-      </Fade>
-    );
+      </div>
+    </Fade>
+  );
 }
