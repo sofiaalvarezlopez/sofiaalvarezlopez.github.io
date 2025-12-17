@@ -16,7 +16,7 @@ theme = "barks"
 [[menu.main]]
     name = "CV"
     url  = "/sofia_cv.pdf"
-    weight = 2
+    weight = 3
 #[[menu.main]]
     #name = "Publications"
     #url  = "/publications"
