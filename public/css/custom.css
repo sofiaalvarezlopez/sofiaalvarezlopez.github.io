@@ -1,0 +1,6 @@
+/* Make the landing-page image round */
+.landing-page-image img {
+  border-radius: 5%;
+  aspect-ratio: 1 / 1;   /* forces a square box */
+  object-fit: cover;     /* crops instead of stretching */
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sofía Álvarez-López</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Sofía Álvarez-López</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Made by Sofia Alvarez-Lopez using the &lt;a href=&#39;https://github.com/timothygebhard/barks&#39;&gt;Barks Hugo theme&lt;/a&gt;.</copyright>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;style&gt;&#xA;  .responsive-divider{width:50%; height:auto; display:block; }&#xA;  @media (max-width:640px){&#xA;    .responsive-divider{ float:none; width:100%; }&#xA;  }&#xA;&lt;/style&gt;&#xA;&lt;p&gt;I’m a Physics Ph.D. candidate at MIT working with Professor Salvatore Vitale on gravitational-wave astrophysics and data analysis. &lt;strong&gt;I use Bayesian methods to study the properties and evolution of black hole and neutron star populations in the Universe.&lt;/strong&gt; At MIT, I’m part of the LIGO Laboratory (Laser Interferometer Gravitational-wave Observatory) and the MIT Kavli Institute for Astrophysics and Space Research. I’m grateful to be supported by the Thomas A. Frank Fellowship (2023–2024), the Mario Santo Domingo Fellowship (2024–2025), and the ACM SIGHPC Data Science Fellowship (2025–present).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

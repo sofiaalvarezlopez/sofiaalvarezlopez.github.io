@@ -1,0 +1,84 @@
+baseURL = "/"
+canonifyURLs = true
+copyright = "Made by Sofia Alvarez-Lopez using the <a href='https://github.com/timothygebhard/barks'>Barks Hugo theme</a>."
+languageCode = "en-us"
+title = "Sofía Álvarez-López"
+theme = "barks"
+
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+[[menu.main]]
+    name = "About me"
+    url  = "/about"
+    weight = 2
+[[menu.main]]
+    name = "CV"
+    url  = "/sofia_cv.pdf"
+    weight = 2
+#[[menu.main]]
+    #name = "Publications"
+    #url  = "/publications"
+    #weight = 2
+#[[menu.main]]
+#    name = "Talks"
+#    url  = "/talks"
+#    weight = 2
+
+[params.head]
+  author = "Sofia Alvarez-Lopez"
+  description = "Physics PhD candidate at MIT."
+  keywords = ["gravitational waves", "LIGO", "astrophysics", "MIT"]
+  custom_css = "css/custom.css"
+
+
+[params.navigation]
+  show_navigation = true
+
+[params.typography]
+  title_font = "Bree Serif"
+  body_font  = "Source Sans Pro"
+
+[params.colors]
+  theme_color = "#f8edeb"
+  background_color = "#f8edeb"
+  text_color = "#333333"
+  link_color = "#8ba34f" #"#f28482"
+
+[params.social]
+  [params.social.email]
+    name = "E-Mail"
+    class = "fas fa-envelope"
+    url = "mailto:sofiaal@mit.edu"
+    weight = 1
+  [params.social.institution]
+    name = "MIT webpage"
+    class = "fas fa-university"
+    url = "https://www.space.mit.edu/people/sofia-alvarez-lopez/"
+    weight = 2
+  [params.social.orcid]
+    name = "ORCID iD"
+    class = "fab fa-orcid"
+    url = "https://orcid.org/0009-0003-8040-4936"
+    weight = 3
+  [params.social.github]
+    name = "GitHub"
+    class = "fab fa-github"
+    url = "https://github.com/sofiaalvarezlopez"
+    weight = 4
+
+[params.footer]
+  show_footer = true
+
+# Options for Markdown renderer
+[markup]
+    [markup.goldmark.renderer]
+        unsafe = true
+        xHTML = true
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
